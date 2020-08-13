@@ -40,4 +40,8 @@ class Student
     
   end 
   
+  def create(attr_hash)
+    
+  end 
+  
 end
