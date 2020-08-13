@@ -14,7 +14,10 @@ class Student
   self.create_table
     sql = <<-SQL 
     CREATE TABLE IF NONE EXISTS students(
-    id PRIMARY )
+    id INTEGER PRIMARY KEY,
+    name TEXT, 
+    grade INTEGER
+    ); SQL
   end 
 
 end
