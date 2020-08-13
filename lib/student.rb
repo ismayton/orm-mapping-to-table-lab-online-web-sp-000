@@ -12,8 +12,9 @@ class Student
   end 
   
   self.create_table
-    sql = <<- SQL 
-    
+    sql = <<-SQL 
+    CREATE TABLE IF NONE EXISTS students(
+    id PRIMARY )
   end 
 
 end
