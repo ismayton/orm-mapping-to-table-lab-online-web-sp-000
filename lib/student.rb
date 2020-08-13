@@ -50,7 +50,8 @@ class Student
   
   def self.create(attr_hash)
     student = attr_hash.each {|key, value| self.send(("#{key}="), value)}
-    student 
+    student.save
+    student
   end 
   
 end
